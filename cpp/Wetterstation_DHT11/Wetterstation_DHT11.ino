@@ -55,8 +55,8 @@ delay(1500); // DHT11 sampling rate is 1HZ.
 
     do {
       
-      u8g2.setCursor(8, 14);
-      u8g2.print("KHF Barometer");
+      u8g2.setCursor(1, 14);
+      u8g2.print("LAB Raumklima");
       
       u8g2.setCursor(2, 35); 
       u8g2.print("Temp: ");
