@@ -73,8 +73,7 @@ Das benötigen wir für die Wetterstation:
 
 + Mit Sekundenkleber die 3D-Druck Bauteilfüße auf den ESP32 kleben
 + Die 3D-Druck Leisten auf das OLED-Display kleben
-+ Den ESP32 auf die Grundplatte und die Sensorhalterung
-+ an die Gehäuse-Rückwand kleben
++ Den ESP32 auf die Grundplatte und die Sensorhalterung an die Gehäusefront kleben
 + VORSICHTIG das Display an die Frontseite (Durchbruch) kleben
 + Vor dem finalen verkleben des Gehäuses erfolgt ein Funktionstest
 + War der Funktionstest erfolgreich, kann das Gehäuse vollständig verklebt werden
