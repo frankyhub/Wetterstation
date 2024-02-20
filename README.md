@@ -150,12 +150,12 @@ Fertig, Glückwunsch!
 
 ## C++ Programm I2C Scanner
 
-```python
-// ESP32 I2C Scanner <br>
-// ESP32 DevKit / ESP32vn IoT UNO - Arduino IDE 1.8.<br>
-#include <Wire.h><br>
-void setup()<br>
-{<br>
+```C++
+// ESP32 I2C Scanner 
+// ESP32 DevKit / ESP32vn IoT UNO - Arduino IDE 1.8.
+#include <Wire.h>
+void setup()
+{
   Serial.begin (115200);  
   Wire.begin (21, 22);   // sda= GPIO_21 /scl= GPIO_22
 }
