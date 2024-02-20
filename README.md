@@ -145,25 +145,20 @@ Fertig, Glückwunsch!
 
 ## C++ Programm I2C Scanner
 
-`
-// ESP32 I2C Scanner
+
+``// ESP32 I2C Scanner
 // ESP32 DevKit / ESP32vn IoT UNO - Arduino IDE 1.8.
- 
-
 #include <Wire.h>
-
 void setup()
 {
   Serial.begin (115200);  
   Wire.begin (21, 22);   // sda= GPIO_21 /scl= GPIO_22
 }
-
 void Scanner ()
 {
   Serial.println ();
   Serial.println ("I2C scanner. Scanning ...");
   byte count = 0;
-
   Wire.begin();
   for (byte i = 8; i < 120; i++)
   {
@@ -182,13 +177,13 @@ void Scanner ()
   Serial.print (count, DEC);        // numbers of devices
   Serial.println (" device(s).");
 }
-
 void loop()
 {
   Scanner ();
   delay (100);
-}
-`
+}``
+
+
 ---
 ---
 
