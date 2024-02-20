@@ -6,7 +6,7 @@ Diese Anleitung beschreibt den Aufbau einer Wetterstation in einem Holzgehäuse 
 Die Wetterstation zeigt beim Start für 5 Sekunden einen Smiley. In dieser Zeit werden die aktuelle Uhrzeit, das Datum und die aktuellen Wetterdaten aus der Region Tegernsee von de.pool.ntp.org und von openweathermap.org geladen.
 Sind die Daten geladen, verschwindet der Smiley und es werden in regelmäßigen Abständen drei Seiten mit Datum und Uhrzeit, danach das Raumklima mit Temperatur und Luftfeuchte, zuletzt die Wetterdaten Außen-Temperatur, Windgeschwindigkeit und Luftdruck angezeigt.
 
-![Bild](/pic/Wetterstation.png)
+![Bild](/png/Wetterstation.png)
 
 ## Hardware:
 Das benötigen wir für die Wetterstation:
@@ -63,9 +63,9 @@ Das benötigen wir für die Wetterstation:
 + Wir laden einen I²C-Scanner in den ESP32 und kontrollieren ob der ESP32 die Busteilnehmer erkennt
 + Wird das Display erkannt, laden wir das Haupt-Programm in den ESP32
 
-![Bild](/pic/dht11.png)
+![Bild](/png/dht11.png)
 
-![Bild](/pic/espshield.png)
+![Bild](/png/espshield.png)
 
 ---
 
@@ -79,12 +79,12 @@ Das benötigen wir für die Wetterstation:
 + Vor dem finalen verkleben des Gehäuses erfolgt ein Funktionstest
 + War der Funktionstest erfolgreich, kann das Gehäuse vollständig verklebt werden
 
-![Bild](/pic/wetter6.pngg)  
+![Bild](/png/wetter6.pngg)  
 
 
 Erster Funktionstest am Seriellen Monitor:
 
-![Bild](/pic/wetter10.png)  
+![Bild](/png/wetter10.png)  
 
 ---
 
@@ -102,23 +102,23 @@ Erster Funktionstest am Seriellen Monitor:
 
 Aufruf "Wetterstation" in den WLAN-Einstellungen
 
-![Bild](/pic/ws_ap_einstellung.png)  
+![Bild](/png/ws_ap_einstellung.png)  
 
 
 Im Browser die IP-Adresse 192.168.4.1 öffnen, die WLAN Zugangsdaten eingeben und speichern
 
-![Bild](/pic/ws_wlaneinstellung2.png)  
+![Bild](/png/ws_wlaneinstellung2.png)  
 
 Sind die WLAN-Zugangsdaten korrekt, startet die Wetterstation
 
-![Bild](/pic/ws_wlaneinstellung3.png)  
+![Bild](/png/ws_wlaneinstellung3.png)  
 
 Startet die Wetterstation nicht, muss der Vorgang wiederholt werden
 Kontrolle am Seriellen Monitor:
 
-![Bild](/pic/wetter11.png)  
+![Bild](/png/wetter11.png)  
 
-![Bild](/pic/wetter12.png)  
+![Bild](/png/wetter12.png)  
 
 Fertig, Glückwunsch!
 
