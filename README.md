@@ -150,7 +150,8 @@ Fertig, Glückwunsch!
 
 ## C++ Programm I2C Scanner
 
-``// ESP32 I2C Scanner <br>
+```
+// ESP32 I2C Scanner <br>
 // ESP32 DevKit / ESP32vn IoT UNO - Arduino IDE 1.8.<br>
 #include <Wire.h><br>
 void setup()<br>
@@ -186,9 +187,13 @@ void loop()
   Scanner ();
   delay (100);
 }
-``
+```
   
-
+```python
+print("Hello, world!")
+for i in range(10):
+    print(i)
+```
 
 
 ---
