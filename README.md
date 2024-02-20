@@ -154,7 +154,7 @@ Fertig, Glückwunsch!
  
 <!-- Fenster -->
 
-<pre><textarea rows="20" cols="123">
+<pre>
 // ESP32 I2C Scanner
 // ESP32 DevKit / ESP32vn IoT UNO - Arduino IDE 1.8.
  
@@ -198,7 +198,7 @@ void loop()
   delay (100);
 }
  
- </textarea></pre>
+</pre>
  
 
   
