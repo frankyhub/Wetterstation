@@ -79,7 +79,7 @@ Das benötigen wir für die Wetterstation:
 + Vor dem finalen verkleben des Gehäuses erfolgt ein Funktionstest
 + War der Funktionstest erfolgreich, kann das Gehäuse vollständig verklebt werden
 
-![Bild](/png/wetter6.pngg)  
+![Bild](/png/wetter6.png)  
 
 
 Erster Funktionstest am Seriellen Monitor:
