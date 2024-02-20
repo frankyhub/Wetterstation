@@ -64,8 +64,10 @@ Das benötigen wir für die Wetterstation:
 + Ist der ESP32 auf dem Shield, der Sensor und das Display angelötet, erfolgt der erste Test
 + Wir laden einen I²C-Scanner in den ESP32 und kontrollieren ob der ESP32 die Busteilnehmer erkennt
 + Wird das Display erkannt, laden wir das Haupt-Programm in den ESP32
+  
 
 ![Bild](/png/dht11.png)
+
 
 ![Bild](/png/espshield.png)
 
