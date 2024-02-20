@@ -3,7 +3,7 @@
 # Wetterstation
 Wetterdaten, Raumklima, Datum und Uhrzeit
 
-## Einleitung:
+## Story:
 Diese Anleitung beschreibt den Aufbau einer Wetterstation in einem Holzgehäuse mit einem ESP32. Beim ESP32 ist ein DHT11-Sensor und am I²C-Bus ein OLED 1,3"-Display angeschlossen. Die Wetterstation beinhaltet einen WiFi-Manager für die Einstellung der WLAN-Zugangsdaten (SSID und Passwort). Nach den ersten Start der Wetterstation, muss in den WLAN-Einstellungen des Handy oder Tablet das Netzwerk "Wetterstation" ausgewählt und über einen Browser die IP-Adresse 192.168.4.1 aufgerufen werden. Danach startet die "Wetterstation WLAN-Einstellung" und die Zugangsdaten für das WLAN können eingetragen werden. Sind die Zugangsdaten korrekt, startet die Wetterstation.
 Die Wetterstation zeigt beim Start für 5 Sekunden einen Smiley. In dieser Zeit werden die aktuelle Uhrzeit, das Datum und die aktuellen Wetterdaten aus der Region Tegernsee von de.pool.ntp.org und von openweathermap.org geladen.
 Sind die Daten geladen, verschwindet der Smiley und es werden in regelmäßigen Abständen drei Seiten mit Datum und Uhrzeit, danach das Raumklima mit Temperatur und Luftfeuchte, zuletzt die Wetterdaten Außen-Temperatur, Windgeschwindigkeit und Luftdruck angezeigt.
