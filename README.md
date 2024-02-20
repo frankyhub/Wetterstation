@@ -83,6 +83,7 @@ Das benötigen wir für die Wetterstation:
 
 
 Erster Funktionstest am Seriellen Monitor:
+
 ![Bild](/pic/wetter10.png)  
 
 ---
@@ -100,17 +101,21 @@ Erster Funktionstest am Seriellen Monitor:
 + Die angezeigten Daten wechseln in regelmäßigen Abständen
 
 Aufruf "Wetterstation" in den WLAN-Einstellungen
+
 ![Bild](/pic/ws_ap_einstellung.png)  
 
 
 Im Browser die IP-Adresse 192.168.4.1 öffnen, die WLAN Zugangsdaten eingeben und speichern
+
 ![Bild](/pic/ws_wlaneinstellung2.png)  
 
 Sind die WLAN-Zugangsdaten korrekt, startet die Wetterstation
+
 ![Bild](/pic/ws_wlaneinstellung3.png)  
 
 Startet die Wetterstation nicht, muss der Vorgang wiederholt werden
 Kontrolle am Seriellen Monitor:
+
 ![Bild](/pic/wetter11.png)  
 
 ![Bild](/pic/wetter12.png)  
