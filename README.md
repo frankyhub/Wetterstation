@@ -151,8 +151,6 @@ Fertig, Glückwunsch!
 ## C++ Programm I2C Scanner
 
 
- <h3>C++ Programm I2C Scanner</h3>
-  <br>   
  
 <!-- Fenster -->
 
@@ -202,7 +200,7 @@ void loop()
  
  </textarea></pre>
  
- </textarea></pre>
+
   
 
 
