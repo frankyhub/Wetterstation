@@ -51,6 +51,10 @@ Das benötigen wir für die Wetterstation:
 + eine Aussparung für den Spannungsanschluss des ESP32 in der Seitenwand eingefügt
 + Wir lasern mit den Einstellungen Geschw./Leistung = 12.0/100 in einem Durchgang
 
+
+![Bild](/pnglasercutter.JPG)
+
+
 ---
 
 3. Schritt Verdrahten
