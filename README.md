@@ -129,7 +129,7 @@ Sind die WLAN-Zugangsdaten korrekt, startet die Wetterstation
 
 ![Bild](/png/ws_wlaneinstellung3.png)  
 
-Startet die Wetterstation nicht, muss der Vorgang wiederholt werden
+Startet die Wetterstation nicht, muss der Vorgang wiederholt werden.
 Kontrolle am Seriellen Monitor:
 
 ![Bild](/png/wetter11.png)  
