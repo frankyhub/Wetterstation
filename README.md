@@ -84,7 +84,6 @@ Das benötigen wir für die Wetterstation:
 + Vor dem finalen verkleben des Gehäuses erfolgt ein Funktionstest
 + War der Funktionstest erfolgreich, kann das Gehäuse vollständig verklebt werden
 
-![Bild](/png/wetter5.JPG)  
 
 ![Bild](/png/wetter7.JPG)  
 
