@@ -71,6 +71,8 @@ Das benötigen wir für die Wetterstation:
 
 ![Bild](/png/espshield.png)
 
+![Bild](/png/wetter5.JPG)
+
 ---
 
 4. Schritt Montage
@@ -82,7 +84,13 @@ Das benötigen wir für die Wetterstation:
 + Vor dem finalen verkleben des Gehäuses erfolgt ein Funktionstest
 + War der Funktionstest erfolgreich, kann das Gehäuse vollständig verklebt werden
 
-![Bild](/png/wetter6.png)  
+![Bild](/png/wetter5.JPG)  
+
+![Bild](/png/wetter7.JPG)  
+
+![Bild](/png/wetter8.JPG)  
+
+![Bild](/png/wetter9.JPG)  
 
 
 Erster Funktionstest am Seriellen Monitor:
