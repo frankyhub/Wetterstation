@@ -52,7 +52,7 @@ Das benötigen wir für die Wetterstation:
 + Wir lasern mit den Einstellungen Geschw./Leistung = 12.0/100 in einem Durchgang
 
 
-![Bild](/pnglasercutter.JPG)
+![Bild](/pnglasercutter.jpg)
 
 
 ---
