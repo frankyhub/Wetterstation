@@ -37,9 +37,9 @@ Das benötigen wir für die Wetterstation:
 1. Schritt 3D-Druckteile zeichnen und drucken
 
 + 3D-Druckteile zeichnen und drucken
-+ ESP32-Pins d=5mm h=4mm
-+ OLED-Display Pins 10x4x1,6mm
-+ DHT11-Halterung 24x8x21 mit DHT11 Aussparung
++ 4 x ESP32-Pins d=5mm h=7mm
++ 4 x OLED-Display Pins 10x4x1,6mm
++ 1 x DHT11-Halterung 24x8x21 mit DHT11 Aussparung
 
 ![Bild](/png/3D.png)
 
