@@ -25,9 +25,9 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:snap-global="false"
-     inkscape:zoom="0.44816426"
-     inkscape:cx="325.77341"
-     inkscape:cy="-34.585533"
+     inkscape:zoom="0.89632852"
+     inkscape:cx="387.13484"
+     inkscape:cy="517.10951"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="-8"
@@ -390,7 +390,7 @@
          y="235.53929">10k</tspan></text>
     <g
        id="g2513"
-       transform="translate(6.7850827,4.8464874)">
+       transform="matrix(1.1396181,0,0,0.95789231,-15.732989,10.911019)">
       <rect
          style="fill:#134785;fill-opacity:1;stroke:none;stroke-width:1.72528;stroke-linecap:square;stroke-linejoin:round;stroke-opacity:0.958763"
          id="rect915"
