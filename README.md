@@ -34,32 +34,7 @@ Das benötigen wir für die Wetterstation:
 
 ## Der Aufbau erfolgt in 5 Schritten:
 
-1. Schritt 3D-Druckteile zeichnen und drucken
-
-+ 3D-Druckteile zeichnen und drucken
-+ 4 x ESP32-Pins d=5mm h=7mm
-+ 4 x OLED-Display Pins 10x4x1,6mm
-+ 1 x DHT11-Halterung 24x8x21 mit DHT11 Aussparung
-
-![Bild](/png/3D.png)
-
----
-
-2. Schritt Gehäuse lasern
-
-+ Wir erstellen mit [BOXES.PY](https://festi.info/boxes.py/) eine Lasercutter Vorlage
-+ Wähle die ClosedBox - Fully closed box mit den Maßen x=110, y=90, h=90 und thickness=4
-+ Zusätzlich werden runde Öffnungen für den DHT11-Sensor in der Frontseinte,
-+ eine Aussparung für das OLED-Display und
-+ zwei Aussparungen für den Spannungs- und Programmieranschluss des ESP32 in der Seitenwand eingefügt
-
-
-![Bild](/png/lasercutter.jpg)
-
-
----
-
-3. Schritt Verdrahten
+1. Schritt Verdrahten
 
 + Wir löten auf das ESP32-Shield die Stiftleisten
 + Am ESP32-Shield wird ein 10kΩ Pullupwiderstand gegen +5V angelötet
@@ -85,6 +60,33 @@ DHT11 anlöten:
 ![Bild](/png/wetter5.JPG)
 
 ---
+
+2. Schritt 3D-Druckteile zeichnen und drucken
+
++ 3D-Druckteile zeichnen und drucken
++ 4 x ESP32-Pins d=5mm h=7mm
++ 4 x OLED-Display Pins 10x4x1,6mm
++ 1 x DHT11-Halterung 24x8x21 mit DHT11 Aussparung
+
+![Bild](/png/3D.png)
+
+---
+
+3. Schritt Gehäuse lasern
+
++ Wir erstellen mit [BOXES.PY](https://festi.info/boxes.py/) eine Lasercutter Vorlage
++ Wähle die ClosedBox - Fully closed box mit den Maßen x=110, y=90, h=90 und thickness=4
++ Zusätzlich werden runde Öffnungen für den DHT11-Sensor in der Frontseinte,
++ eine Aussparung für das OLED-Display und
++ zwei Aussparungen für den Spannungs- und Programmieranschluss des ESP32 in der Seitenwand eingefügt
+
+
+![Bild](/png/lasercutter.jpg)
+
+
+---
+
+
 
 4. Schritt Montage
 
