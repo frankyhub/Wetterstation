@@ -17,20 +17,19 @@ Das benötigen wir für die Wetterstation:
 | Anzahl | Bezeichnung | 
 | -------- | -------- | 
 | 1        | ESP32       |
-| 1       | ESP32-Shield        | 
-| 1      | ESP32 Stiftleiste       | 
-| 1       | DHT11-Sensor       | 
-| 1       | 10k Widerstand      | 
-| 1       | OLED Display 1,3" I²C        | 
-| 1       | Gas-Sensor (optional)        |
-| 1       | LED rot, gelb grün (optional)        |
-| 1      | Batterieclip       | 
-| 1      | 9V Batterie oder ein 8V Netzteil       | 
-| 1      |Sperrholzplatte 4mm x 600x300        | 
-| 1      |3D-Druck Teile für den ESP32, das OLED-Display und den DHT11        | 
-| 1      | Schaltdraht      | 
-| 1      | Sekundenkleber      | 
-
+| 1        | ESP32-Shield        | 
+| 1        | ESP32 Stiftleiste       | 
+| 1        | DHT11-Sensor       | 
+| 1        | 10k Widerstand      | 
+| 1        | OLED Display 1,3" I²C        | 
+| 1        | OLED Display Anschluss 4 pol.       |
+| 1        | 8V Netzteil       | 
+| 1        | Sperrholzplatte 4mm x 600x300        | 
+| 1        | 3D-Druck Teile für den ESP32, das OLED-Display und den DHT11        | 
+| 1        | Schaltdraht      | 
+| 1        | Sekundenkleber      | 
+| 1        | Holzkleber      |
+| -------- | -------- | 
 
 ## Der Aufbau erfolgt in 5 Schritten:
 
