@@ -3,7 +3,7 @@
 ### Wetterstation mit Gassensor MQ135
 
 
-![Bild](pic/Wetterstation.png)
+![Bild](/pic/Wetterstation.png)
 
 ## Story:
 Ziel der Erweiterung um einen Gassensor ist es, die CO2-Konzentration in Teilen pro Million zu messen, sie auf 
