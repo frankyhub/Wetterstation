@@ -70,7 +70,7 @@ DHT11 anlöten:
 <img src="png/espshield.png" width="500"> 
 <br> <br>
 
-<img src="png/wetter5.jpg" width="500"> 
+<img src="png/wetter5.JPG" width="500"> 
 <br> <br>
 
 ---
