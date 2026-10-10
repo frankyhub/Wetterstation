@@ -127,7 +127,7 @@ DHT11 anlöten:
 
 Erster Funktionstest am Seriellen Monitor:
 
-<img src="png/wetter10.JPG" width="500"> 
+<img src="png/wetter10.png" width="500"> 
 <br> <br>
 
 ---
