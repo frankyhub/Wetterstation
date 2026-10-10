@@ -5,11 +5,10 @@
 |[:skull:ISSUE](https://github.com/frankyhub/Wetterstation/issues?q=is%3Aissue)|[:speech_balloon: Forum /Discussion](https://github.com/frankyhub/Wetterstation/discussions)|[:grey_question:WiKi](https://github.com/frankyhub/Wetterstation/wiki)||
 |--|--|--|--|
 | | | | |
-|![Static Badge](https://img.shields.io/badge/RepoNr.:-%2054-blue)|<a href="https://github.com/frankyhub/Wetterstation/issues">![GitHub issues](https://img.shields.io/github/issues/frankyhub/Wetterstation)![GitHub closed issues](https://img.shields.io/github/issues-closed/frankyhub/Wetterstation)|<a href="https://github.com/frankyhub/Wetterstation/discussions">![GitHub Discussions](https://img.shields.io/github/discussions/frankyhub/Wetterstation)|<a href="https://github.com/frankyhub/Wetterstation/releases">![GitHub release (with filter)](https://img.shields.io/github/v/release/frankyhub/Wetterstation)|
-|![GitHub Created At](https://img.shields.io/github/created-at/frankyhub/Wetterstation)| <a href="https://github.com/frankyhub/Wetterstation/pulse" alt="Activity"><img src="https://img.shields.io/github/commit-activity/m/badges/shields" />| <a href="https://github.com/frankyhub/Wetterstation/graphs/traffic"><img alt="ViewCount" src="https://views.whatilearened.today/views/github/frankyhub/github-clone-count-badge.svg">  |<a href="https://github.com/frankyhub?tab=stars"> ![GitHub User's stars](https://img.shields.io/github/stars/frankyhub)|
+<a href="https://github.com/frankyhub/Wetterstation/issues">![GitHub issues](https://img.shields.io/github/issues/frankyhub/Wetterstation)![GitHub closed issues](https://img.shields.io/github/issues-closed/frankyhub/Wetterstation)|<a href="https://github.com/frankyhub/Wetterstation/discussions">![GitHub Discussions](https://img.shields.io/github/discussions/frankyhub/Wetterstation)|<a href="https://github.com/frankyhub/Wetterstation/6eleases">![GitHub release (with filter)](https://img.shields.io/github/v/release/frankyhub/Wetterstation)|![Static Badge](https://img.shields.io/badge/RepoNr.:-%2054-blue)|
+|![GitHub Created At](https://img.shields.io/github/created-at/frankyhub/Wetterstation)| <a href="https://github.com/frankyhub/Wetterstation/pulse" alt="Activity"><img src="https://img.shields.io/github/commit-activity/m/badges/shields" />| <a href="https://github.com/frankyhub/Wetterstation/graphs/traffic"><img alt="ViewCount" src="https://views.whatilearened.today/views/github/frankyhub/github-clone-count-badge.svg">  |<a href="https://github.com/frankyhub?tab=stars"> ![GitHub User's stars](https://img.shields.io/github/stars/frankyhub)||
+
 </div>
-
-
 
 # Wetterstation
 Wetterdaten, Raumklima, Datum und Uhrzeit
@@ -19,7 +18,9 @@ Diese Anleitung beschreibt den Aufbau einer Wetterstation in einem Holzgehäuse 
 Die Wetterstation zeigt beim Start für 5 Sekunden einen Smiley. In dieser Zeit werden die aktuelle Uhrzeit, das Datum und die aktuellen Wetterdaten aus der Region Tegernsee von de.pool.ntp.org und von openweathermap.org geladen.
 Sind die Daten geladen, verschwindet der Smiley und es werden in regelmäßigen Abständen drei Seiten mit Datum und Uhrzeit, danach das Raumklima mit Temperatur und Luftfeuchte, zuletzt die Wetterdaten Außen-Temperatur, Windgeschwindigkeit und Luftdruck angezeigt.
 
-![Bild](/png/Wetterstation.png)
+<img src="pic/Wetterstation.png" width="500"> 
+<br> <br>
+
 
 ## Hardware:
 Das benötigen wir für die Wetterstation:
@@ -57,17 +58,20 @@ Das benötigen wir für die Wetterstation:
 + Wird das Display erkannt, laden wir das Haupt-Programm in den ESP32
 
 Stiftleisten einlöten:
-  
-![Bild](/png/espshield2.png)
+
+<img src="pic/espshield2.png" width="500"> 
+<br> <br>  
 
 DHT11 anlöten:
 
-![Bild](/png/dht11.png)
+<img src="pic/dht11.png" width="500"> 
+<br> <br>
 
+<img src="pic/espshield.png" width="500"> 
+<br> <br>
 
-![Bild](/png/espshield.png)
-
-![Bild](/png/wetter5.JPG)
+<img src="pic/wetter5.png" width="500"> 
+<br> <br>
 
 ---
 
@@ -78,7 +82,8 @@ DHT11 anlöten:
 + 4 x OLED-Display Pins 10x4x1,6mm
 + 1 x DHT11-Halterung 24x8x21 mit DHT11 Aussparung
 
-![Bild](/png/3D.png)
+<img src="pic/3D.png" width="500"> 
+<br> <br>
 
 ---
 
@@ -91,7 +96,9 @@ DHT11 anlöten:
 + zwei Aussparungen für den Spannungs- und Programmieranschluss des ESP32 in der Seitenwand eingefügt
 
 
-![Bild](/png/lasercutter.jpg)
+<img src="pic/lasercutter.jpg" width="500"> 
+<br> <br>
+
 
 
 ---
@@ -109,16 +116,19 @@ DHT11 anlöten:
 + War der Funktionstest erfolgreich, kann das Gehäuse vollständig verklebt werden
 
 
-![Bild](/png/wetter7.JPG)  
+<img src="pic/wetter7.JPG" width="500"> 
+<br> <br>
 
-![Bild](/png/wetter8.JPG)  
+<img src="pic/wetter8.JPG" width="500"> 
+<br> <br>
 
-![Bild](/png/wetter9.JPG)  
-
+<img src="pic/wetter9.JPG" width="500"> 
+<br> <br>
 
 Erster Funktionstest am Seriellen Monitor:
 
-![Bild](/png/wetter10.png)  
+<img src="pic/wetter10.JPG" width="500"> 
+<br> <br>
 
 ---
 
@@ -136,23 +146,28 @@ Erster Funktionstest am Seriellen Monitor:
 
 Aufruf "Wetterstation" in den WLAN-Einstellungen
 
-![Bild](/png/ws_ap_einstellung.png)  
-
+<img src="pic/ws_ap_einstellung.png" width="500"> 
+<br> <br>
 
 Im Browser die IP-Adresse 192.168.4.1 öffnen, die WLAN Zugangsdaten eingeben und speichern
 
-![Bild](/png/ws_wlaneinstellung2.png)  
+<img src="pic/ws_wlaneinstellung2.png" width="500"> 
+<br> <br>
 
 Sind die WLAN-Zugangsdaten korrekt, startet die Wetterstation
 
-![Bild](/png/ws_wlaneinstellung3.png)  
+<img src="pic/ws_wlaneinstellung3.png" width="500"> 
+<br> <br>
 
 Startet die Wetterstation nicht, muss der Vorgang wiederholt werden.
 Kontrolle am Seriellen Monitor:
 
-![Bild](/png/wetter11.png)  
+<img src="pic/wetter11.png" width="500"> 
+<br> <br>
 
-![Bild](/png/wetter12.png)  
+
+<img src="pic/wetter12.png" width="500"> 
+<br> <br>
 
 Fertig, Glückwunsch!
 
